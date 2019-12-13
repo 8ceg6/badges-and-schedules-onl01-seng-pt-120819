@@ -6,5 +6,5 @@ end
 def batch_badge_creator(names)
     names.collect do |speaker|
     badge_maker(speaker)
-
+    end
 end 
