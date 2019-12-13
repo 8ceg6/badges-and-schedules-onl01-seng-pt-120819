@@ -9,6 +9,9 @@ def batch_badge_creator(names)
     end
 end 
 
-def assign_rooms
+def assign_rooms(speakers)
+    speakers.collect.with_index(1) do |speaker, index|
+    "Hello, #{speaker}! You'll be assigned to room #{index}"
+    end 
   
 end
