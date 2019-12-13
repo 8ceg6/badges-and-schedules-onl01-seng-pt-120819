@@ -13,5 +13,13 @@ def assign_rooms(speakers)
     speakers.collect.with_index(1) do |speaker, index|
     "Hello, #{speaker}! You'll be assigned to room #{index}!"
     end 
-  
 end
+
+def printer(speakers)
+    batch_badge_creator(speakers).each do |badge| 
+      puts badge
+    end 
+    assign_rooms(speakers).each do |room|
+      puts room 
+    end 
+end 
