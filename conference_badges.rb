@@ -9,6 +9,6 @@ def batch_badge_creator(names)
     end
 end 
 
-def 
+# def 
   
-end
+# end
