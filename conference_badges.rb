@@ -4,7 +4,7 @@ def badge_maker(name)
 end 
 
 def batch_badge_creator(names)
-    names.collect do speaker
-    
+    names.collect do |speaker|
+    badge_maker(speaker)
 
 end 
