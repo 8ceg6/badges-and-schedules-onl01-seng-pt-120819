@@ -8,3 +8,5 @@ def batch_badge_creator(names)
     badge_maker(speaker)
     end
 end 
+
+def 
